@@ -1,0 +1,172 @@
+{
+  "contractName": "minerRole",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.6.4+commit.1dca32f3\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/E/blockchainDeveloper/resoursesFromCourse/mintable Token/contracts/minerRole.sol\":\"minerRole\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/E/blockchainDeveloper/resoursesFromCourse/mintable Token/contracts/minerRole.sol\":{\"keccak256\":\"0x47c4409035ed6e8dcce7f8316abd33ea1b1eb14e6a265a7e66978a61b152bf41\",\"urls\":[\"bzz-raw://7d1b048cb005d5d69e0856cc886591086196c58b30cc9e3501693620ca19136d\",\"dweb:/ipfs/Qmf1fcYTCAJ6dRXW2meYBuMjRv6bywWmA58YWbnf6TYxAJ\"]},\"@openzeppelin/contracts/GSN/Context.sol\":{\"keccak256\":\"0xdb26cbf4d028490f49831a7865c2fe1b28db44b535ca8d343785a3b768aae183\",\"urls\":[\"bzz-raw://840b14ce0315c47d49ba328f1f9fa7654ded1c9e1559e6c5e777a7b2dc28bf0a\",\"dweb:/ipfs/QmTLLabn4wcfGro9LEmUXUN2nwKqZSotXMvjDCLXEnLtZP\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212201d1fb8abd7571778005e964676cbc1380ace60f4bc901faf0ec39cb77c8414b164736f6c63430006040033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212201d1fb8abd7571778005e964676cbc1380ace60f4bc901faf0ec39cb77c8414b164736f6c63430006040033",
+  "sourceMap": "80:36:1:-:0;;;;5:9:-1;2:2;;;27:1;24;17:12;2:2;80:36:1;;;;;;;",
+  "deployedSourceMap": "80:36:1:-:0;;;12:1:-1;9;2:12",
+  "source": "pragma solidity ^0.6.4;\r\n\r\nimport \"@openzeppelin/contracts/GSN/Context.sol\";\r\n\r\ncontract minerRole is Context {\r\n\r\n}",
+  "sourcePath": "E:\\blockchainDeveloper\\resoursesFromCourse\\mintable Token\\contracts\\minerRole.sol",
+  "ast": {
+    "absolutePath": "/E/blockchainDeveloper/resoursesFromCourse/mintable Token/contracts/minerRole.sol",
+    "exportedSymbols": {
+      "minerRole": [
+        42
+      ]
+    },
+    "id": 43,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 38,
+        "literals": [
+          "solidity",
+          "^",
+          "0.6",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "absolutePath": "@openzeppelin/contracts/GSN/Context.sol",
+        "file": "@openzeppelin/contracts/GSN/Context.sol",
+        "id": 39,
+        "nodeType": "ImportDirective",
+        "scope": 43,
+        "sourceUnit": 90,
+        "src": "27:49:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 40,
+              "name": "Context",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 89,
+              "src": "102:7:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Context_$89",
+                "typeString": "contract Context"
+              }
+            },
+            "id": 41,
+            "nodeType": "InheritanceSpecifier",
+            "src": "102:7:1"
+          }
+        ],
+        "contractDependencies": [
+          89
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 42,
+        "linearizedBaseContracts": [
+          42,
+          89
+        ],
+        "name": "minerRole",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 43,
+        "src": "80:36:1"
+      }
+    ],
+    "src": "0:116:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/E/blockchainDeveloper/resoursesFromCourse/mintable Token/contracts/minerRole.sol",
+    "exportedSymbols": {
+      "minerRole": [
+        42
+      ]
+    },
+    "id": 43,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 38,
+        "literals": [
+          "solidity",
+          "^",
+          "0.6",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "absolutePath": "@openzeppelin/contracts/GSN/Context.sol",
+        "file": "@openzeppelin/contracts/GSN/Context.sol",
+        "id": 39,
+        "nodeType": "ImportDirective",
+        "scope": 43,
+        "sourceUnit": 90,
+        "src": "27:49:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 40,
+              "name": "Context",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 89,
+              "src": "102:7:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Context_$89",
+                "typeString": "contract Context"
+              }
+            },
+            "id": 41,
+            "nodeType": "InheritanceSpecifier",
+            "src": "102:7:1"
+          }
+        ],
+        "contractDependencies": [
+          89
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 42,
+        "linearizedBaseContracts": [
+          42,
+          89
+        ],
+        "name": "minerRole",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 43,
+        "src": "80:36:1"
+      }
+    ],
+    "src": "0:116:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.6.4+commit.1dca32f3.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.2.0",
+  "updatedAt": "2020-07-10T15:03:16.828Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

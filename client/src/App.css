@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.text-edit{
+  margin-top: 20px;
+}
+.behind {
+  overflow: hidden;
+}
+.kyc-style {
+  width: 600px;
+  margin: 50px 30px;
+  float: left;
+}
+.add-miners{
+  width: 600px;
+  margin: 50px 30px;
+  float: right;
+
+}
+.purshase{
+  margin-top: 50px;
+}
+.burn-style{
+  margin:50px auto;
+  width:600px;
+}
+.mar{
+  margin: 10px;
+}
