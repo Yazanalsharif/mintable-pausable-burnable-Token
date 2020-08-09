@@ -3,6 +3,8 @@
 
 ### run the token
 
-in the root folder and client  make 
-'npm install'
+```bash
+npm install 
+cd ./client npm install
+```
 
